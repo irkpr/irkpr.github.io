@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <style>
             .link {
-                font-size: 36px;
+                font-size: 100px;
             }
         </style>
 </head>
