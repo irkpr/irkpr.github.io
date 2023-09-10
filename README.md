@@ -7,7 +7,7 @@
 <body>
 <center>
   <main>
-    <h1 href="[https://html5css.ru/html/](https://github.com/irkpr/irkpr.github.io/tree/main/%D0%94%D0%97_1)https://github.com/irkpr/irkpr.github.io/tree/main/%D0%94%D0%97_1">Welcome!</h1>
+    <a href="[https://html5css.ru/html/](https://github.com/irkpr/irkpr.github.io/tree/main/%D0%94%D0%97_1)https://github.com/irkpr/irkpr.github.io/tree/main/%D0%94%D0%97_1">Welcome!</a>
   </main>
 </center>
 </body>
