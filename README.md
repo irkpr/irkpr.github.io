@@ -9,9 +9,6 @@
 <center>
   <main>
     <h1>Welcome!</h1>
-    <div>
-       <a href="[https://t.me/irkpr](https://github.com/irkpr/irkpr.github.io/tree/main/%D0%94%D0%97_1)https://github.com/irkpr/irkpr.github.io/tree/main/%D0%94%D0%97_1">OOP</a>
-    </div>
   </main>
 </center>
 </body>
