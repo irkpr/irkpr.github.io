@@ -3,17 +3,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style>
-            .link {
-                font-size: 100px;
-            }
-        </style>
 </head>
 <body>
 <center>
   <main>
     <div>
-    <a href="https://github.com/irkpr/irkpr.github.io/tree/main/%D0%94%D0%97_1" >Welcome!</a>
+    <font size="100px">
+      <a href="https://github.com/irkpr/irkpr.github.io/tree/main/%D0%94%D0%97_1" >Welcome!</a>
+    </font>
     </div>
   </main>
 </center>
