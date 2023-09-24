@@ -106,11 +106,22 @@ font:
 .for-form
 {
     height: 200px;
-    width: 300px;
+    width: 400px;
     background-color: rgb(223, 187, 122);
+    display: flex;
+    align-items: center;
 }
 * 
 {
 	margin: 0;
-	padding: 0;
+    padding: 0;
+}
+.cntr
+{
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
