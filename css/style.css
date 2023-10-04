@@ -123,3 +123,64 @@ font:
     text-align: center;
     justify-content: center;
 }
+.z 
+{
+	display: block;
+	width: 100%;
+	float: left;
+	transition: width .2s;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.zs 
+{
+	list-style: none;
+	margin: 20 -20px 0 0;
+	padding: 0;
+    display: flex;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.pht 
+{
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+    background-color: rgb(117, 133, 125);
+    color: white;
+    font-size: larger;
+    width: 200px;
+    height: 80px;
+}
+.left
+{
+    text-align: left;
+}
+.l
+{
+    display: flex;
+    justify-content: left;
+}
+.r
+{
+    display: flex;
+    justify-content: right;
+}
+.r
+img
+{
+    margin:10px;
+}
+.ellipse
+{
+    border-radius: 100px;
+    border: 3px solid rgb(67, 122, 115);
+    box-shadow: 0 0 7px #666;
+}
+.ellipse2
+{
+    border-radius: 100px;
+    border: 3px solid rgb(67, 122, 115);
+    box-shadow: 0 0 7px #666;
+}
