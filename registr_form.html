@@ -7,12 +7,64 @@
   <link rel="stylesheet" href="css/style.css">
   <title>OOP</title>
 </head>
-<body class="cntr">
+<body>
   <div>
-    <div class="for-form">
-      Programming is heterogeneous — there are principles and approaches that allow you to write programs in different ways 
-      depending on the context and the task. One of these approaches is Object-Oriented Programming. We tell you what the OOP 
-      paradigm is, its structure, principles, advantages.
-    </div>
+      <form class="ctr" action="" method="get">
+        <div class="mrgn">
+        <div>
+        <div>How do you convenientlyreceive an ansver?</div>
+        <label for="mail">
+          <input type="radio" name="ct" id="mail"> By mail
+        </label><br>
+        <label for="tel">
+          <input type="radio" name="ct" id="tel"> By phone
+        </label><br>
+        <label for="none">
+          <input type="radio" name="ct" id="none"> No need to answer
+        </label><br>
+      </div>
+      <div>
+        <br><label for="theme">
+          <div>Indicate the topic of the question:</div>
+        </label>
+        <select class="dsgn" name="theme" id="theme">
+          <option value="work">Work</option>
+          <option value="cooperation">Cooperation</option>
+          <option value="personal">Personal</option>
+        </select>
+      </div>
+      <div>
+        <br><div>And one more question</div>
+        <label for="chb1">
+          <input type="checkbox" name="chb1" id="chb1">Maybe so
+        </label><br>
+        <label for="chb2">
+          <input type="checkbox" name="chb2" id="chb2">Or not so
+        </label><br>
+        <label for="chb3">
+          <input type="checkbox" name="chb3" id="chb3">Otherwise
+        </label><br>
+      </div>
+      <div>
+        <br><label for="example">Your name:</label><br>
+        <input class="lft" type="text" name="example" id="example" size="30" pattern="[A-Z]+"required><br>
+      </div>
+      <div>
+        <label for="email">Email:</label><br>
+        <input class="lft" type="email" name="email" id="email" size="30" pattern="[A-Z]+"required><br>
+      </div>
+      <div>
+        <label for="example">Phone:</label><br>
+        <input class="lft" type="tel" name="tel" id="tel" size="30" pattern="[A-Z]+"required><br>
+      </div><br>
+      <br><div>Your question:</div>
+      <textarea class="c" cols="20"></textarea>
+      <div class="c">
+        <br><input class="bttn" type="submit" value="Send a question">
+        <input class="bttn" type="reset" value="Clear">
+      </div>
+      </div>
+      </form>
+  </div>
 </body>
 </html>
