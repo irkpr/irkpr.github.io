@@ -6,10 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <title>OOP</title>
+  <script>
+    function check_form()
+    {
+      console.log(document.forms[0].elements.example.value);
+      console.log(document.forms[0].elements.email.value);
+      console.log(document.forms[0].elements.tel.value);
+      for(i=0; i<document.forms[0].elements.ct.lengt;i++)
+      {
+        if(document.forms[0].elements.ct[i].checked)
+        {
+          console.log(document.forms[0].elements.ct[i].value);
+        }
+      }
+    }
+  </script>
 </head>
 <body>
   <div>
-      <form class="ctr" action="" method="get">
+      <form class="ctr" name="mf" action="" method="get">
         <div class="mrgn">
         <div>
         <div>How do you convenientlyreceive an ansver?</div>
@@ -47,15 +62,15 @@
       </div>
       <div>
         <br><label for="example">Your name:</label><br>
-        <input class="lft" type="text" name="example" id="example" size="30" pattern="[A-Z]+"required><br>
+        <input class="lft" type="text" name="example" id="example" size="30"><br>
       </div>
       <div>
         <label for="email">Email:</label><br>
-        <input class="lft" type="email" name="email" id="email" size="30" pattern="[A-Z]+"required><br>
+        <input class="lft" type="email" name="email" id="email" size="30"><br>
       </div>
       <div>
         <label for="example">Phone:</label><br>
-        <input class="lft" type="tel" name="tel" id="tel" size="30" pattern="[A-Z]+"required><br>
+        <input class="lft" type="tel" name="tel" id="tel" size="30"><br>
       </div><br>
       <br><div>Your question:</div>
       <textarea class="c" cols="20"></textarea>
@@ -63,8 +78,10 @@
         <br><input class="bttn" type="submit" value="Send a question">
         <input class="bttn" type="reset" value="Clear">
       </div>
+      
       </div>
       </form>
+      <button onclick="check_form()">проверка формы</button>
   </div>
 </body>
 </html>

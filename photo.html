@@ -24,32 +24,45 @@
   </header>
   <main>
     <h1 class="shadow">Photo</h1>
-    <div>
-        <figure>
-            <img class="ph" src = "images/11.jpg" alt="oop" width="600">
-            <figcaption>Fig. 1. Object-Oriented Programming</figcaption>
-        </figure>
-        <figure>
-            <img class="ph" src="images/9.png" alt="class" width="600">
-            <figcaption>Fig. 2. Class</figcaption>
-        </figure>
-        <figure>
-            <img class="ph" src="images/10.jpg" alt="methods" width="600">
-            <figcaption>Fig. 3. Methods</figcaption>
-        </figure>
-        <figure>
-            <img class="ph" src="images/6.png" alt="encapsulation" width="600"> 
-            <figcaption>Fig. 4. Encapsulation</figcaption>
-        </figure>
-        <figure>
-            <img class="ph" src="images/7.png" alt="inheritance" width="600">
-            <figcaption>Fig. 5. Inheritance</figcaption>
-        </figure>
-        <figure>
-            <img class="ph" src="images/8.jpg" alt="polymorphism" width="600">
-            <figcaption>Fig. 6. Polymorphism</figcaption>
-        </figure>
-    </div>
+    <div class="opisaniye-materiala">
+      <div class="images">
+          <figure>
+              <p><img class="ph" src = "images/11.jpg" alt="oop" id="pic" width="600" value="3">
+              <figcaption>Fig. 1. Object-Oriented Programming</figcaption></p>
+              <p>Image Size: <input type="range" min="1" max="27" id="size" 
+                oninput="sizePic()" value="100"></p>
+          </figure>
+          <figure>
+            <p><img class="ph" src="images/9.png" alt="class" id="pic1" width="600" value="3">
+              <figcaption>Fig. 2. Class</figcaption></p>
+              <p>Image Size: <input type="range" min="1" max="27" id="size1" 
+                oninput="sizePic1()" value="100"></p>
+          </figure>
+          <figure>
+            <p><img class="ph" src="images/10.jpg" alt="methods" id="pic2" width="600" value="3">
+              <figcaption>Fig. 3. Methods</figcaption></p>
+              <p>Image Size: <input type="range" min="1" max="27" id="size2" 
+                oninput="sizePic2()" value="100"></p>
+          </figure>
+          <figure>
+            <p><img class="ph" src="images/6.png" alt="encapsulation" id="pic3" width="600" value="3">
+              <figcaption>Fig. 4. Encapsulation</figcaption>
+              <p>Image Size: <input type="range" min="1" max="27" id="size3" 
+                oninput="sizePic3()" value="100"></p>
+          </figure>
+          <figure>
+            <p><img class="ph" src="images/7.png" alt="inheritance" id="pic4" width="600" value="3">
+              <figcaption>Fig. 5. Inheritance</figcaption>
+              <p>Image Size: <input type="range" min="1" max="27" id="size4" 
+                oninput="sizePic4()" value="100"></p>
+          </figure>
+          <figure>
+            <p><img class="ph" src="images/8.jpg" alt="polymorphism" id="pic5" width="600" value="3">
+              <figcaption>Fig. 6. Polymorphism</figcaption>
+              <p>Image Size: <input type="range" min="1" max="27" id="size5" 
+                oninput="sizePic5()" value="100"></p>
+          </figure>
+      </div>
   </main>
 </center>
   <footer>
@@ -64,4 +77,53 @@
     </div>
   </footer>
 </body>
+<script>
+  function sizePic() {
+   size = document.getElementById("size").value;
+   img = document.getElementById("pic");
+   img.width = 60 + 20*size;
+  }
+ </script>
+<script>
+  function sizePic1() {
+   size = document.getElementById("size1").value;
+   img = document.getElementById("pic1");
+   img.width = 60 + 20*size;
+  }
+ </script>
+ <script>
+  function sizePic2() {
+   size = document.getElementById("size2").value;
+   img = document.getElementById("pic2");
+   img.width = 60 + 20*size;
+  }
+ </script>
+ <script>
+  function sizePic3() {
+   size = document.getElementById("size3").value;
+   img = document.getElementById("pic3");
+   img.width = 60 + 20*size;
+  }
+ </script>
+ <script>
+  function sizePic4() {
+   size = document.getElementById("size4").value;
+   img = document.getElementById("pic4");
+   img.width = 60 + 20*size;
+  }
+ </script>
+ <script>
+  function sizePic5() {
+   size = document.getElementById("size5").value;
+   img = document.getElementById("pic5");
+   img.width = 60 + 20*size;
+  }
+ </script>
+ <script>
+  function sizePic6() {
+   size = document.getElementById("size6").value;
+   img = document.getElementById("pic6");
+   img.width = 60 + 20*size;
+  }
+ </script>
 </html>
